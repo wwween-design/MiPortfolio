@@ -278,7 +278,9 @@ body {
 
 /* ------------->   MAIN CSS   <------------- */
 /* ------------->              <------------- */
-
+.item-proyecto-flex:nth-child(odd){
+    flex-direction: row-reverse;
+}
 .item-proyecto-flex {
    
         margin-top: 8rem;
